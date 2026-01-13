@@ -3,5 +3,5 @@ user_input=int(input("Enter your choice: "))
 print(f"You selected: {user_input}")
 
 with open("users.txt","a") as f:
-    user_name=f.write(input("Enter your user name: "))
+    user_name=f.write(input("Enter your username: "))
     password=f.write(input("Enter your password: "))
